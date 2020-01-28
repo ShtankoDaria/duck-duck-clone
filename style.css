@@ -1,0 +1,45 @@
+
+.header-button-menu {
+    margin: 0;
+    justify-content: flex-end;
+    position: static;
+}
+.header-aside-item-social {
+    display: flex;
+    align-items: left;
+    line-height: normal;
+    height: auto;
+}
+.header-aside {
+    display: block;
+    margin: 22px auto auto 16px;
+    height: 44px;
+    right: 7px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    z-index: 199;
+}
+.logo_homepage {
+    margin: 0 auto;
+    width: 200px;
+    height: 56px;
+    background-image: url(https://duckduckgo.com/assets/logo_homepage_mobile.normal.v108.unoptimized.svg);
+    background-size: 100% 100%;
+}
+.logo_homepage {
+    width: 205px;
+    height: 200px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background-image: url(https://duckduckgo.com/assets/logo_homepage.normal.v108.svg);
+}
+.logo_homepage {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: transparent;
+    text-indent: -9999px;
+    font-size: 0px;
+}
