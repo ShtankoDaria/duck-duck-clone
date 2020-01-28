@@ -9,8 +9,6 @@
     padding-bottom: 25px;
     margin: 0 auto;
     height: auto;
-    background-color: teal;
-    
 }
 .header-aside {
     display: flex;
@@ -57,7 +55,6 @@
     padding: 0 7px;
     width: 100%;
     max-width: 1400px;
-    background-color: yellow;
     padding: 20 7px 0 7px;
     
 }
@@ -74,7 +71,6 @@
     color: transparent;
     display: block;
     position: relative;
-    background-color: tomato;
 } 
 /*
 #logo_homepage {
@@ -95,46 +91,48 @@ background-size: 100%;
 
 .wrap {
     width: 100%;
-    background-color: blue;
+    margin: 20px 10px;
 }
 .search-box {
-    
     box-sizing: border-box;
-    border-radius: 4px 4px 4px 4px;
-    background-color: violet;
+    border-radius: 4px 4px 4px 6px;
     margin: 0 118px;
+    padding: 0;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.06);
+    background-color: #fff;
 }
   
 .search-field {
-    box-sizing: border-box;
-    border-radius: 4px 0 0 4px;
     position: relative;
     height: 2.8em;
     width: 600px;
-    background-color: #fff;
-    border: 1px solid rgba(0,0,0,0.15);
-    box-shadow: 0 2px 3px rgba(0,0,0,0.06);
     padding-left: .75em;
     margin: 0 auto;
+    color: none;
+    background-color: none;
+    border: none;
 }
 
 #search-button{
     position: absolute;
-    width: 50px;
-    height: 37px;
+    align-items: center;
+    width: 65px;
+    height: 40px;
     border: none;
     color: #999;
-    text-align: center;
+    background-color: transparent;
     cursor: pointer;
-    font-size: 20px;
-    margin: 0;
-    padding: 0 13px;
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 0;
     float: left;
-    background-color: red;
 }
 
-.search-button :hover{
+#search-button :hover{
     background-color: #66ad57;
     color: white;
+    width: 100%;
+    height: 100%;
 }
 
