@@ -9,25 +9,34 @@
   <script src='./evaluation/init.js'></script>
   <title>Duck Duck Go</title> 
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="fontawesome.css">
+  <link rel="stylesheet" href="flexboxgrid.css">
+
 </head>
 
 <body>
  <!-- Header -->
 <header id="header-section">
   <div class="header-aside">
-    <a class="header-button-menu" href="#">⇶</a>
-    <div class="header-aside-item-social">
-      <a aria-label="Twitter"  href="https://twitter.com/duckduckgo"><img src="https://duckduckgo.com/assets/icons/header/twitter-color.svg" alt="Twitter bird image"></a>
+    <div id="header-aside-item-social">
+      <a aria-label="Twitter"  href="https://twitter.com/duckduckgo"><i class="fa fa-twitter" aria-hidden="true" #A5A5A5></i></a>
+    </div>
+    <div class="header-button"> 
+      <a id="header-button-menu" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
     </div>
   </div>
-    <div class="header-main">
-      <div class="logo-wrap--home">
-        <a id="logo_homepage_link" class="logo_homepage" href="/about">
-          About DuckDuckGo
-          <span class="logo_homepage__tt">Learn More</span>
-        </a>
+</header> 
+  <div class="logo-wrap-home">
+      <div class="header-main">
+        <a id="logo_homepage" href="/about">DuckDuckGo</a>
       </div>
-    </div>
+      <div class="wrap">
+         <div class="search-box">
+         <input type="text" class="search-field" name="" placeholder="">
+          <button type="submit" class="search-button"><i class="fa fa-search" aria-hidden="true"></i> </button>
+         </div>
+      </div>
+  </div>
 </body>
 
 </html>
