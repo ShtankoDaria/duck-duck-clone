@@ -353,6 +353,10 @@ outline: none;
     -o-transition: background-color .15s ease-out;
     transition: background-color .15s ease-out;
 }
+
+.onboarding-ed__slide-2 {
+    background: #f5a339;
+}
 @media screen and (max-width: 425px){
     .search_box{
       width: 95%;
