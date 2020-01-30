@@ -357,6 +357,11 @@ outline: none;
 .onboarding-ed__slide-2 {
     background: #f5a339;
 }
+
+.onboarding-ed__slide-3 {
+    background: #5f63bd;
+}
+
 @media screen and (max-width: 425px){
     .search_box{
       width: 95%;
