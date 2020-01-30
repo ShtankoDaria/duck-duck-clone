@@ -365,6 +365,27 @@ outline: none;
 .onboarding-ed__slide-4 {
     background: #87cef5;
 }
+.onboarding-ed__close {
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 16px;
+    cursor: auto;
+    margin-right: 25px;
+}
+.onboarding-ed__close-back {
+    cursor: pointer;
+    color: rgba(0,0,0,0.7);
+    font-weight: bold;
+}
+
+.onboarding-ed__close-divider {
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
+    padding: 0 15px;
+}
 
 @media screen and (max-width: 425px){
     .search_box{
