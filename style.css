@@ -171,7 +171,6 @@ outline: none;
 .badge-link-title{
     font-family: 40px;
     display: block;
-    font-size: 40px;
     font-weight: 900;
     color: #333;
   
@@ -348,10 +347,6 @@ outline: none;
     display: inline-block;
     border-radius: 4px;
     z-index: 10;
-    -webkit-transition: background-color .15s ease-out;
-    -moz-transition: background-color .15s ease-out;
-    -o-transition: background-color .15s ease-out;
-    transition: background-color .15s ease-out;
 }
 
 .onboarding-ed__slide-2 {
