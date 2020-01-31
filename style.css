@@ -2,7 +2,7 @@ body{
     background: top center;
     background-color: #f7f7f7;
     background-size: cover;
-    font-family: 17px "DDG_ProximaNova";
+    font-size: 17px;
 }
     
 
@@ -29,8 +29,8 @@ body{
 #header-aside-item-social{
     margin: 0 8px 0 20px;
     padding: 8px;
-    height: 20;
-    width: 23;
+    height: 20px;
+    width: 23px;
 }
 #header-button-menu{ 
     margin: 0 8px 0 20px;
@@ -61,7 +61,7 @@ body{
     padding: 0 7px;
     width: 100%;
     max-width: 1400px;
-    padding: 20 7px 0 7px;
+    padding: 20px 7px 0 7px;
     
 }
 
@@ -169,7 +169,7 @@ outline: none;
 }
 
 .badge-link-title{
-    font-family: 40px "DDG_ProximaNova";
+    font-family: 40px;
     display: block;
     font-size: 40px;
     font-weight: 900;
